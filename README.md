@@ -1,10 +1,9 @@
 # Project Description
-To complete this lab, you will read in the edges of a tree that has had a single edge
-added, and you will return an edge that can be removed that will result in a tree. More
-specifically, you write a method findCutEdge. This findCutEdge will read in an int[][]
-which will contain n pairs of numbers. Each number in the n pairs will be between 0
+Reads in the edges of a tree that has had a single edge added, and returns an edge that can be removed that will result in a tree. 
+
+The method findCutEdge reads in an int[][] which will contain n pairs of numbers. Each number in the n pairs will be between 0
 and n − 1, and will indicate an edge in the graph, which is a tree with a single edge
-added. The method findCutEdge will return an int[] which will be a pair of numbers,
+added. The method findCutEdge returns an int[] which will be a pair of numbers,
 corresponding to an edge in the cycle. (Thus, if that edge is cut, a tree remains)
 
 ## Sample Outputs
